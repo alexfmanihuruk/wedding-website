@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/alep2458/public_html/wedding
+    - export BACKPATH=/home/alep2458/back/wedding
+    - /bin/rm -Rf $BACKPATH
+    - /bin/mv $DEPLOYPATH $BACKPATH
+    - /bin/mkdir $DEPLOYPATH
+    - /bin/cp -R /home/alep2458/repositories/wedding-website/* $DEPLOYPATH/
