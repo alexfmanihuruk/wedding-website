@@ -1,0 +1,119 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Nora
+	Theme URI: http://themesymbol.com/nora
+	Description: Minimalist Portfolio & Shop Theme
+	Author: dominothemes
+	Author URI: http://themeforest.net/user/dominothemes
+	Version: 1.0
+	Text Domain: nora
+	Domain Path: /lang
+	License: GNU General Public License
+	License URI: license.txt
+  	Tags: accessibility-ready, custom-colors, custom-menu, featured-images, flexible-header, full-width-template, post-formats, theme-options, threaded-comments, translation-ready
+
+-----------------------------------------------------------------------------------*/
+
+/* Covid Box */
+.covid-box{
+	padding: 3em 0;
+	background: #f8f9fd;
+}
+.covid-box .full-flex{
+	width: 100%;
+	display: flex;
+    justify-content: center;
+}
+.covid-box .title{
+	font-size: 16px;
+    color: #180403;
+    font-family: 'Gabriela', serif;
+    text-transform: inherit;
+	display: inline-block;
+	line-height: 2em;
+    border-bottom: 1px solid #000000;
+}
+.covid-box .desc-box{
+	width: 500px;
+}
+.covid-box .desc-box p{
+	text-align: center;
+	font-size: 14px;
+}
+.covid-box .list-grid-box{
+	width: 700px;
+}
+.covid-box .list-grid-box .cover-box{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	margin-bottom: 1em;
+	min-height: 50px;
+}
+.covid-box .list-grid-box .cover-box .icon{
+	width: 40px;
+}
+.covid-box .list-grid-box .cover-box span{
+	padding-left: 10px;
+	text-align: left;
+}
+.post-content h2 {
+	font-size: 28px;
+}
+.single-widget span.post-date {
+	font-size: 12px;
+	color: #a3905b;
+}
+.single-widget > ul li a {
+	padding: 10px 0 0 !important;
+}
+h3.custom_head {
+	white-space : normal !important;
+}
+
+.single-post p#breadcrumbs {
+	font-size: 12px;
+	margin-bottom : 5px;
+}
+.single-post p#breadcrumbs span a {
+	font-weight: bold;
+}
+
+@media only screen and (max-width : 1115px) {
+	.covid-box .list-grid-box .cover-box .icon{
+		width: 15%;
+	}
+	.covid-box .list-grid-box .cover-box span{
+		font-size: 10px;
+		line-height: 1.5em;
+	}
+}
+
+
+#fb-share-button {
+	background: #3b5998;
+border-radius: 3px;
+font-weight: 650;
+
+display: inline-block;
+position: absolute;
+}
+
+#fb-share-button:hover {
+    cursor: pointer;
+    background: #213A6F
+}
+
+#fb-share-button svg {
+    width: 18px;
+    fill: white;
+    vertical-align: middle;
+    border-radius: 2px
+}
+
+#fb-share-button span {
+    vertical-align: middle;
+    color: white;
+    font-size: 10px;
+    padding: 0 3px
+}
